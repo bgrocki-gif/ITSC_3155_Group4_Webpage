@@ -88,3 +88,55 @@ button {
 button:hover {
     background: #0056b3;
 }
+.portrait {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+.moodboard {
+    margin-top: 15px;
+    background: #eef2f7;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.moodboard h4 {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.moodboard-items {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mood-item {
+    background: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 0.85rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.mood-item:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+.mood-img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+.brice-card {
+    border-top: 4px solid #28a745;
+}
