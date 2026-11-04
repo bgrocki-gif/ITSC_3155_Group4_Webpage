@@ -88,10 +88,3 @@ button {
 button:hover {
     background: #0056b3;
 }
-.portrait {
-    width: 150px;
-    height: auto;
-    border-radius: 8px;
-    display: block;
-    margin: 10px auto 0 auto;
-}
