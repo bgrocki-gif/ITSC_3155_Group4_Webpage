@@ -189,3 +189,40 @@ button:hover {
 .brice-card {
     border-top: 4px solid #28a745;
 }
+
+.bryce-card {
+    background: #0a192f;
+    color: #64ffda;
+    border-top: 4px solid #64ffda;
+    font-family: Consolas, "Courier New", monospace;
+}
+
+.bryce-card h2 { color: #64ffda; }
+.bryce-card .bio { color: #ccd6f6; }
+
+.bryce-card .moodboard {
+    background: #112240;
+    border: 1px solid #64ffda;
+}
+
+.bryce-card .moodboard h4 { color: #64ffda; }
+
+.bryce-card .mood-item {
+    background: #0a192f;
+    color: #64ffda;
+    border: 1px solid #64ffda;
+}
+
+.bryce-card .mood-item:hover {
+    background: #64ffda;
+    color: #0a192f;
+}
+
+.mood-quote {
+    font-size: 0.8rem;
+    color: #8892b0;
+    margin: 10px 0 5px;
+}
+
+.bryce-card button { background: #64ffda; color: #0a192f; font-weight: bold; }
+.bryce-card button:hover { background: #45d1b3; }
