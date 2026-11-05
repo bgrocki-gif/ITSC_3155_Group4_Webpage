@@ -23,11 +23,14 @@
 <!-- Team bios section (default section) -->
 <div id="bios" class="container">
     <!-- Each card represents an individual team member -->
-    <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
+    <div class="gianna_card">
+        <h2>Gianna Lowry</h2>
+        <p>Software Developer</p>
         <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+        <div id="bio1" class="bio" style="display: none;">
+            <p>Gianna is a junior developer gaining proficiency in full-stack development.</p>
+            <img src="img/jasmine.jpeg" alt="Picture of Jasmine" class="gianna-picture">
+        </div>
     </div>
     <div class="card">
         <h2>Jane Smith</h2>
@@ -40,6 +43,12 @@
         <p>UI/UX Designer</p>
         <button onclick="toggleBio('bio3')">Show Bio</button>
         <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+    </div>
+    <div class="card">
+        <h2>Emily Johnson</h2>
+        <p>UI/UX Designer</p>
+        <button onclick="toggleBio('bio3')">Show Bio</button>
+        <p id="bio4" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
     </div>
 </div>
 
