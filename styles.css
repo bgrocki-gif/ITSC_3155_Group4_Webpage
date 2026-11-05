@@ -20,6 +20,18 @@ header {
     margin-top: 10px;
 }
 
+.gianna-picture {
+    width: 150px; /* Adjust the size as needed */
+    margin-top: 10px;
+    border: 3px solid lavenderblush;
+}
+
+.gianna-picture2 {
+    width: 100px; /* Adjust the size as needed */
+    margin-top: 10px;
+    border: 3px solid pink;
+}
+
 /* Menu button styling */
 header nav {
     margin-top: 10px;
@@ -60,6 +72,17 @@ header nav button:hover {
     transition: transform 0.2s;
 }
 
+.gianna-card {
+    background: pink;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
 .card:hover {
     transform: scale(1.05);
 }
@@ -88,6 +111,32 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+
+.gianna-moodboard {
+    background-color: hotpink;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.gianna-moodboard h3 {
+    color: black;
+    text-align: center;
+}
+
+.gianna-moodboard-item {
+    background-color: lavenderblush;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.moodboard-item h4 {
+    margin-bottom: 5px;
+    color: black;
+}
+
 .portrait {
     width: 150px;
     height: auto;
