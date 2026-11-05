@@ -23,6 +23,13 @@ header {
 .gianna-picture {
     width: 150px; /* Adjust the size as needed */
     margin-top: 10px;
+    border: 3px solid lavenderblush;
+}
+
+.gianna-picture2 {
+    width: 100px; /* Adjust the size as needed */
+    margin-top: 10px;
+    border: 3px solid pink;
 }
 
 /* Menu button styling */
@@ -101,15 +108,32 @@ button {
     cursor: pointer;
 }
 
-.pink-button {
-    background: deeppink;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 button:hover {
     background: #0056b3;
 }
+
+
+.gianna-moodboard {
+    background-color: hotpink;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.gianna-moodboard h3 {
+    color: black;
+    text-align: center;
+}
+
+.gianna-moodboard-item {
+    background-color: lavenderblush;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.moodboard-item h4 {
+    margin-bottom: 5px;
+    color: black;
+}
+
