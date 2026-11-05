@@ -65,7 +65,7 @@ header nav button:hover {
     transition: transform 0.2s;
 }
 
-.gianna_card {
+.gianna-card {
     background: pink;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -94,6 +94,15 @@ h2 {
 /* Button styling */
 button {
     background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pink-button {
+    background: deeppink;
     color: white;
     border: none;
     padding: 10px 15px;
